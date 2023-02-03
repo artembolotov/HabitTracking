@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB9D67222980F17E007AA03F /* AddHabitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D67212980F17E007AA03F /* AddHabitScreen.swift */; };
+		AB9D6724298243F7007AA03F /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D6723298243F7007AA03F /* FilledButton.swift */; };
+		AB9D672629854813007AA03F /* HabitProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D672529854813007AA03F /* HabitProgressView.swift */; };
+		AB9D67282987CC90007AA03F /* EditHabitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D67272987CC90007AA03F /* EditHabitScreen.swift */; };
+		AB9D672C2988E699007AA03F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D672B2988E699007AA03F /* Common.swift */; };
+		ABA97962297FA16F009E14DB /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA97961297FA16F009E14DB /* Habit.swift */; };
+		ABA97964297FA552009E14DB /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA97963297FA552009E14DB /* Habits.swift */; };
 		ABC95D0C297E54F200C74E58 /* HabitTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC95D0B297E54F200C74E58 /* HabitTrackingApp.swift */; };
 		ABC95D0E297E54F200C74E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC95D0D297E54F200C74E58 /* ContentView.swift */; };
 		ABC95D10297E54F600C74E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC95D0F297E54F600C74E58 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB9D67212980F17E007AA03F /* AddHabitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitScreen.swift; sourceTree = "<group>"; };
+		AB9D6723298243F7007AA03F /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
+		AB9D672529854813007AA03F /* HabitProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitProgressView.swift; sourceTree = "<group>"; };
+		AB9D67272987CC90007AA03F /* EditHabitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitScreen.swift; sourceTree = "<group>"; };
+		AB9D672B2988E699007AA03F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		ABA97961297FA16F009E14DB /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		ABA97963297FA552009E14DB /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
 		ABC95D08297E54F200C74E58 /* Easy Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Habits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC95D0B297E54F200C74E58 /* HabitTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackingApp.swift; sourceTree = "<group>"; };
 		ABC95D0D297E54F200C74E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +67,13 @@
 			children = (
 				ABC95D0B297E54F200C74E58 /* HabitTrackingApp.swift */,
 				ABC95D0D297E54F200C74E58 /* ContentView.swift */,
+				AB9D67212980F17E007AA03F /* AddHabitScreen.swift */,
+				AB9D67272987CC90007AA03F /* EditHabitScreen.swift */,
+				ABA97961297FA16F009E14DB /* Habit.swift */,
+				ABA97963297FA552009E14DB /* Habits.swift */,
+				AB9D6723298243F7007AA03F /* FilledButton.swift */,
+				AB9D672529854813007AA03F /* HabitProgressView.swift */,
+				AB9D672B2988E699007AA03F /* Common.swift */,
 				ABC95D0F297E54F600C74E58 /* Assets.xcassets */,
 				ABC95D11297E54F600C74E58 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA97962297FA16F009E14DB /* Habit.swift in Sources */,
 				ABC95D0E297E54F200C74E58 /* ContentView.swift in Sources */,
+				ABA97964297FA552009E14DB /* Habits.swift in Sources */,
+				AB9D67222980F17E007AA03F /* AddHabitScreen.swift in Sources */,
+				AB9D672C2988E699007AA03F /* Common.swift in Sources */,
 				ABC95D0C297E54F200C74E58 /* HabitTrackingApp.swift in Sources */,
+				AB9D6724298243F7007AA03F /* FilledButton.swift in Sources */,
+				AB9D67282987CC90007AA03F /* EditHabitScreen.swift in Sources */,
+				AB9D672629854813007AA03F /* HabitProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
